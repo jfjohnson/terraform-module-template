@@ -25,20 +25,11 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 ---
-### Desktop (please complete the following information):
- - OS: [e.g. Windows 10 / Windows subsystem for Linux]
- - Terraform Module Version [e.g. 0.0.2]
- - Terraform Version [e.g. 0.12.23]
- - Terragrunt Version [e.g. 0.23.13]
- - Terraform Provider [e.g. AWS]
- - Provider Version [e.g. 2.0.0]
-
----
-### Desktop (please replace the sample values with your information):
+### Environment (please replace the sample values with your information):
  OS | Module Version | Terraform Version | Terragrunt Version | Provider | Provider Version 
 :---:|:---:|:---:|:---:|:---:|:---:
  Windows 10 | 0.1.2 | 0.12.23 | 0.23.13 | AWS | 2.0.0 
 
+---
 ### Additional context
 Add any other context about the problem here.
-
