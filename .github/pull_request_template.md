@@ -11,17 +11,14 @@ Please delete options that are not relevant.
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
 
 # Checklist:
 
 - [ ] I have read the [CONTRIBUTING](../CONTRIBUTING.md) doc
-- [ ] My code follows the [Terraform style guidelines](https://www.terraform.io/docs/configuration/style.html)
+- [ ] My code follows the [style guidelines for Terraform](https://www.terraform.io/docs/configuration/style.html) ([terraform fmt](https://www.terraform.io/docs/commands/fmt.html) will enforce this at PR)
 - [ ] I have performed a self-review of my own code
 - [ ] I have [commented](https://www.terraform.io/docs/configuration/syntax.html#comments) my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
+- [ ] New and existing unit tests pass locally with my changes (PRs run a number of tests such as [terraform init](https://www.terraform.io/docs/commands/init.html), [terraform validate](https://www.terraform.io/docs/commands/validate.html), and [checkov](https://www.checkov.io/))
 - [ ] Any dependent changes have been merged and published in downstream modules
-
