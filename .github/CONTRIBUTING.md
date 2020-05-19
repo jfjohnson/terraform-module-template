@@ -1,6 +1,6 @@
 ## Contributing Overview
 
-Contributions to our repos are welcomed by any user interested in the improvement of a particular piece of code or functionality. As a starting point, users should find Users are encouraged to contribute in the forms of:
+Contributions to our repos are welcomed by any user interested in the improvement of a particular piece of code or functionality. As a starting point, interested users should find existing issues to work on.  Users are encouraged to contribute in the forms of:
  1. Reporting a Bug or Feature
  2. Contributing code via Pull Request
 
