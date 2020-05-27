@@ -6,9 +6,12 @@
   * List of GitHub Member usernames who should be granted the [Admin role](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) in the repo.
   
 # Standard Module Structure
-The standard module structure is a file and directory layout we recommend for reusable modules distributed in separate repositories. Terraform tooling is built to understand the standard module structure and use that structure to generate documentation, index modules for the module registry, and more.
-https://www.terraform.io/docs/modules/index.html#standard-module-structure
+The [standard module structure](https://www.terraform.io/docs/modules/index.html#standard-module-structure) is a file and directory layout we recommend for reusable modules distributed in separate repositories. Terraform tooling is built to understand the standard module structure and use that structure to generate documentation, index modules for the module registry, and more.
+
   
+# Contributing & Approving Changes
+* All contributions should follow the guidelines explained in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 # Roles & Permissions
 ### Contributors
 These users are assigned the *Write* role in order to push to your project, although the master branch is protected from contributors.  The terraform-contributors team members will have *write* role to encourage contribution to the repository.
