@@ -24,6 +24,26 @@
 # Standard Module Structure
 The [standard module structure](https://www.terraform.io/docs/modules/index.html#standard-module-structure) is a file and directory layout we recommend for reusable modules distributed in separate repositories. Terraform tooling is built to understand the standard module structure and use that structure to generate documentation, index modules for the module registry, and more.
 
+```
+├── README.md
+├── main.tf
+├── outputs.tf
+├── variables.tf
+├── ...
+├── modules/
+│   ├── nestedA/
+│   │   ├── README.md
+│   │   ├── variables.tf
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   ├── nestedB/
+│   ├── .../
+├── examples/
+│   ├── exampleA/
+│   │   ├── main.tf
+│   ├── exampleB/
+│   ├── .../
+```
   
 # Contributing & Approving Changes
 * All contributions should follow the guidelines explained in [CONTRIBUTING.md](CONTRIBUTING.md).
