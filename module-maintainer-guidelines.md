@@ -54,8 +54,13 @@ The [standard module structure](https://www.terraform.io/docs/modules/index.html
 * All contributions should follow the guidelines explained in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 # Creating a Release
-* 
-
+* Modules should always be pinned to a [specific version](https://www.terraform.io/docs/modules/sources.html#selecting-a-revision-1) so it is important that tags are created to publish versions.
+* The best way to create a version tag is by creating a [release](/release), but you can just create a tag directly.
+* Most importantly, the tag must follow the [semantic versioning](https://semver.org/) pattern of vMAJOR.MINOR.PATCH (i.e. v1.2.23) where:
+  * MAJOR version when you make incompatible API changes,
+  * MINOR version when you add functionality in a backwards compatible manner, and
+  * PATCH version when you make backwards compatible bug fixes.  
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 # Roles & Permissions
 ### Contributors
