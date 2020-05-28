@@ -18,7 +18,7 @@
 # Customize your GitHub repository
 * You should add a short description explaining the functionality of the Terraform module(s) in your repository to the repository description.
 * (label your repo..aka Topics... @Wayne-Ennis ...CCOE-923)
-* (modify codecontributors)
+* The .github/CODEOWNERS file in the template grants permissions to the code owners in the template repository. You should modify the [.github/CODEOWNERS](.github/CODEOWNERS) in your repository with your code owners.
 
 
 # Standard Module Structure
