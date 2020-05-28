@@ -1,5 +1,11 @@
 # Table of Contents
-(TBD)
+* [Creating a new GitHub repository](#creating-a-new-github-repository)
+* [Customize your GitHub repository](#customize-your-github-repository)
+* [Standard Module Structure](#standard-module-structure)
+* [Contributing & Approving Changes](#contributing--approving-changes)
+* [Creating a Release](#creating-a-release)
+* [Roles & Permissions](#roles--permissions)
+
 
 # Creating a new GitHub repository
 * **When**: A new repo should be requested for each module as iPipeline is taking a polyrepo approach to our Terraform modules.  It may make sense to have a limited number of submodules in the repo as long as [semantic versioning](https://semver.org/) is enforced.
