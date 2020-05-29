@@ -27,7 +27,7 @@ Contributions to our repos are welcomed by any user interested in the improvemen
     - Please reference any associated issues ensuring they are closed when Pull Request is closed
       - [Pull Request Template](https://github.com/jsimoni-org/terraform-module-template/.github/pull_request_template.md)
       - [Closing Issues using Keywords](https://help.github.com/en/enterprise/2.16/user/github/managing-your-work-on-github/closing-issues-using-keywords#about-issue-references)
-7. Request 2 Approvers.  1 of which must be a code owner
+7. Request at least 1 approver (GitHub will automatically populate the approvers with code owners as approval from a code owners is required to merge).
 8. Pull Request will be merged if approved, and if all GH actions completed successfully
 
 ## Code of Conduct
