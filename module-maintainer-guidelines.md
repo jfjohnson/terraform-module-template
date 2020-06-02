@@ -62,6 +62,22 @@ The [standard module structure](https://www.terraform.io/docs/modules/index.html
   * PATCH version when you make backwards compatible bug fixes.  
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
+# Quality of Code
+* It is important to think of your module as a product you are delivering to the rest of the organization and therefore they are dependent on stable, quality, reliable releases.
+* The repository template has included some rudimentary quality checks that automatically run on pull requests to help inform the approving reviewers of the quality of the code being contributed.
+  * [Terraform Format](https://www.terraform.io/docs/commands/fmt.html) - checks that the Terraform configuration files conform to a canonical format and style.
+  * [Terraform Init](https://www.terraform.io/docs/commands/init.html) - initializes a working directory containing Terraform configuration files which ensures that all references to 3rd party components are valid (i.e. child modules, plugins, etc.).
+  * [Terraform Validate](https://www.terraform.io/docs/commands/validate.html) - runs checks that verify whether a configuration is syntactically valid and internally consistent, regardless of any provided variables or existing state. It is thus primarily useful for general verification of reusable modules, including correctness of attribute names and value types.
+  * [Checkov Security Analysis](https://www.checkov.io/) - scans cloud infrastructure managed in Terraform and detects *some*  misconfigurations.
+* As your modules mature, gain wider adoption & potentially get more complex, it is important to also expand the depth & breadth of your testing suite.  Here are some tools to consider (in no particular order):
+  * [terraform-compliance](https://terraform-compliance.com/)
+  * [Terraform Plan](https://www.terraform.io/docs/commands/plan.html)
+  * [terratest](https://terratest.gruntwork.io/)
+  * [Regula](https://github.com/fugue/regula)
+  * [tfsec](https://github.com/liamg/tfsec)
+  * [terrascan](https://github.com/cesar-rodriguez/terrascan)
+  * [terraform-aws-secure-baseline](https://github.com/nozaq/terraform-aws-secure-baseline)
+
 # Roles & Permissions
 ### Contributors
 These users are assigned the *Write* role in order to push to your project, although the master branch is protected from contributors.  The terraform-contributors team members will have *write* role to encourage contribution to the repository.
