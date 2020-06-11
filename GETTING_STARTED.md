@@ -28,7 +28,7 @@ GitHub Action YML files can be found at:
 ### Single Terraform Working Directory
 If you need to run the Terraform GitHub Actions in a single, non-root directory, you will need to set the `tf_working_dir` input to the Terraform code directory. 
 
-**Important**: This will need to be done in all of the YML Action files located in the `.github/workflows` directory. 
+**Note**: This will need to be done in all of the YML Action files located in the `.github/workflows` directory. 
 
 **Example**: If the Terraform code can be found under `example/terraform/directory`, the updated `tf_working_dir` input for the `terraform_github_actions.yml` Action would look similar to this
 
@@ -48,7 +48,7 @@ env:
 ### Multiple Terraform Working Directories
 If you need to run the Terraform GitHub Actions in multiple directories, you have to create separate jobs for each working directory and replace the `tf_working_dir` input with the path to the working directory per job.
 
-**Important**: This will need to be done in all of the YML Action files located in the `.github/workflows` directory.
+**Note**: This will need to be done in all of the YML Action files located in the `.github/workflows` directory.
 
 **Example**: If the Terraform code can be found under `example/terraform/directory1` and `example/terraform/diretory2`, the updated `terraform_github_actions.yml` Action would look similar to this
 
