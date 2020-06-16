@@ -1,5 +1,8 @@
 # Getting Started
 
+## About GitHub Actions
+GitHub Actions enable the automation and execution of software development workflows within a GitHub repository. To view the GitHub Actions configured for this repository, please see the [Quality of Code](module-maintainer-guidelines.md#quality-of-code) guideline.
+
 ## Configuring Workflow Actions
 Terraform GitHub Actions only support running in a single working directory at a time. The working directory is set using the `tf_working_dir` input. By default, the working directory is set to `.` which refers to the root of the GitHub repository.
 
