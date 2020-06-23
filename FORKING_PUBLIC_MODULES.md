@@ -1,7 +1,7 @@
 # Table of Contents
 * [Why to fork a public module](#why-to-fork-a-public-module)
 * [What to consider when forking a public module](#what-to-consider-when-forking-a-public-module)
-* [How to fork a public module/repo](#XXXXX)
+* [How to fork a public module/repo](#how-to-fork-a-public-repo)
 * [Contributing to forked modules](#XXXX)
 * [Roles & Permissions](#roles--permissions)
 
@@ -29,3 +29,8 @@ It is recommended to consume HashiCorp [Verified modules](https://www.terraform.
 * It is important to consume open source modules that are actively maintained by the community. Using the pulse insights in GitHub over the past month is a good view into the recent activity on a module
 ### Usage
 * A module that is widely used, is more likely to have 
+
+# How to fork a public repo
+* Send an email to git-admins@ipipeline.com requesting that they fork a specific public repository into the iPipeline GitHub account.
+* Name of the repo should be the same as the public repo.
+* List of GitHub Member usernames who should be granted the [Admin role](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) in the repo.
