@@ -46,4 +46,4 @@ It is recommended to consume HashiCorp [Verified modules](https://www.terraform.
 
 
 # Roles & Permissions
-see [Roles & Permissions](/MODULE_MAINTAINER_GUIDELINES.md#roles--permissions) in the MODULE_MAINTAINER_GUIDELINES.md.
+See [Roles & Permissions](/MODULE_MAINTAINER_GUIDELINES.md#roles--permissions) in the MODULE_MAINTAINER_GUIDELINES.md.
