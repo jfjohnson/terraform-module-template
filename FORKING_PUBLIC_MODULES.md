@@ -2,6 +2,7 @@
 * [Why to fork a public module](#why-to-fork-a-public-module)
 * [What to consider when forking a public module](#what-to-consider-when-forking-a-public-module)
 * [How to fork a public module/repo](#how-to-fork-a-public-repo)
+* [Keeping a forked module current](#keeping-a-forked-module-current)
 * [Contributing to forked modules](#XXXX)
 * [Roles & Permissions](#roles--permissions)
 
@@ -34,3 +35,7 @@ It is recommended to consume HashiCorp [Verified modules](https://www.terraform.
 * Send an email to git-admins@ipipeline.com requesting that they fork a specific public repository into the iPipeline GitHub account.
 * Name of the repo should be the same as the public repo.
 * List of GitHub Member usernames who should be granted the [Admin role](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization) in the repo.
+
+# Keeping a forked module current
+* It is important to still define repo owners and code contributors for forked repos. These individuals will be responsible for keeping the forked repo in sync with the upstream repo.
+* It is recommended to routinely [sync](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) the forked/master branch with upstream/master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
