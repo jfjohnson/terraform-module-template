@@ -43,3 +43,7 @@ It is recommended to consume HashiCorp [Verified modules](https://www.terraform.
 
 # Contributing to forked modules 
 * How to contribute to upstrem repos is defined in the upstream repo. The most [common contribution model](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork) is to create a pull request from a branch in the forked repo to the upstream repo.
+
+
+# Roles & Permissions
+see [Roles & Permissions](/MODULE_MAINTAINER_GUIDELINES.md#roles--permissions) in the MODULE_MAINTAINER_GUIDELINES.md.
