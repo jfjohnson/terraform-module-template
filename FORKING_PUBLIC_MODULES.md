@@ -7,7 +7,7 @@
 * [Roles & Permissions](#roles--permissions)
 
 # Why to fork a public module
-* There are well established and widely used Terraform modules being maintained by the Terraform community that can be consumed in order to let iPipeline focus on building value in our Terraform code where we differentiate ourselves. (aka. "don't reinvent the wheel)
+* There are well established and widely used Terraform modules being maintained by the Terraform community that can be consumed in order to let iPipeline focus on building value in our Terraform code where we differentiate ourselves. (aka. "don't reinvent the wheel")
 
 
 # What to consider when forking a public module
